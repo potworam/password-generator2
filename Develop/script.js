@@ -1,5 +1,12 @@
 // Assignment code here
-
+function getRandomInt (max){
+  return Math.floor(math.random()*max);
+}
+var passwordOptions = {
+  letters:"abcdefghijklmnopqrstuvwxyz",
+  special:"`~!@#$%^&*()_-+={[}}|:;'<>,./?",
+  numbers:"123456789"
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
